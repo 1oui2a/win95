@@ -4,19 +4,14 @@
         <img class="sidebar-image" src="@/assets/sidebar-image.png" />
     </div>
     <div class="socials">
-        <a href="https://www.instagram.com/lizardonthecamera/" target="_blank">
+        <a href="https://www.instagram.com/1oui2a/" target="_blank">
             <div class="bar">
                 <img class="social-image" src="@/assets/iPhone-Icons/Instagram.webp" />
                 <div class="social-text"><u>I</u>nstagram</div>
             </div>
         </a>
-        <a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Reddit.webp" />
-                <u>R</u>eddit
-            </div>
-        </a>
-        <a href="https://www.linkedin.com/in/don-chia" target="_blank">
+   
+        <a href="https://www.linkedin.com/in/louiza-moran-3a1b98330/" target="_blank">
             <div class="bar">
                 <img class="social-image" src="@/assets/iPhone-Icons/Linkedin.webp" />
                 <u>L</u>inkedIn
@@ -28,7 +23,7 @@
                 <u>T</u>witter
             </div>
         </a>
-        <a href="https://github.com/DonChiaQE" target="_blank">
+        <a href="https://github.com/1oui2a" target="_blank">
             <div class="bar">
                 <img class="social-image" src="@/assets/iPhone-Icons/Github.webp" />
                 <u>G</u>itHub

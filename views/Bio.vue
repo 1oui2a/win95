@@ -1,30 +1,29 @@
 <template>
 <div>
     <img class="w-full h-auto" src="@/assets/Biography/self.jpg" />
-    <h2 class="font-bold text-2xl py-5">Don Chia (谢祺恩)</h2>
+    <h2 class="font-bold text-2xl py-5">Louiza Moran</h2>
     <h4 class="text-gray-600 font-medium text-xs" style="padding-bottom: 10px">
-        Software Engineer @ MINDEF Signals Cloud and Digital Office • NOSSAFLEX • Fundigo Co. • Current Inc. •  Apple WWDC 2021 & 2022 SSC Scholar
+        Bachelors Degree in Computing and Digtal Media • Graphic Designer • Web Designer • 
     </h4>
-    <h4 class="text-gray-600 font-medium text-xs">Singapore 📍</h4>
+    <h4 class="text-gray-600 font-medium text-xs">Ireland 📍</h4>
     <div class="flex flex-wrap mt-5 gap-2 items-center">
-        <img class="w-auto h-5 rounded-none text-xs" alt="Swift" src="https://img.shields.io/badge/-Swift-orange" />
-        <img class="w-auto h-5 rounded-none text-xs" alt="Python" src="https://img.shields.io/badge/-Python-blue" />
+        <img class="w-auto h-5 rounded-none text-xs" alt="Photoshop" src="https://img.shields.io/badge/-Photoshop-orange" />
+        <img class="w-auto h-5 rounded-none text-xs" alt="Illustrator" src="https://img.shields.io/badge/-Illustrator-blue" />
         <img class="w-auto h-5 rounded-none text-xs" alt="JavaScript" src="https://img.shields.io/badge/-Javascript-yellow" />
-        <img class="w-auto h-5 rounded-none text-xs" alt="SQL" src="https://img.shields.io/badge/-SQL-lightgrey" />
         <img class="w-auto h-5 rounded-none text-xs" alt="Git" src="https://img.shields.io/badge/-Git-critical" />
         <img class="w-auto h-5 rounded-none text-xs" alt="HTML/CSS" src="https://img.shields.io/badge/-HTML%2FCSS-yellowgreen" />
-        <img class="w-auto h-5 rounded-none text-xs" alt="SwiftUI" src="https://img.shields.io/badge/-SwiftUI-3e8bc3" />
+        <img class="w-auto h-5 rounded-none text-xs" alt="DaVinci Resolve" src="https://img.shields.io/badge/-DaVinci Resolve-3e8bc3" />
         <img class="w-auto h-5 rounded-none text-xs" alt="React Native" src="https://img.shields.io/badge/-React Native-blue" />
         <img class="w-auto h-5 rounded-none text-xs" alt="Vue" src="https://img.shields.io/badge/-VueJS-61b083" />
-        <img class="w-auto h-5 rounded-none text-xs" alt="Flask" src="https://img.shields.io/badge/-Flask-406893" />
-        <img class="w-auto h-5 rounded-none text-xs" alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-4ca158" />
-        <img class="w-auto h-5 rounded-none text-xs" alt="SQLite" src="https://img.shields.io/badge/-SQLite-64a2c9" />
+        <img class="w-auto h-5 rounded-none text-xs" alt="C sharp" src="https://img.shields.io/badge/-C Sharp-406893" />
+        <img class="w-auto h-5 rounded-none text-xs" alt="Unity" src="https://img.shields.io/badge/-Unity-4ca158" />
+        <img class="w-auto h-5 rounded-none text-xs" alt="Blender" src="https://img.shields.io/badge/-Blender-64a2c9" />
         <img class="w-auto h-5 rounded-none text-xs" alt="Figma" src="https://img.shields.io/badge/-Figma-8c5aee" />
     </div>
     <div class="pt-7">
         <h3 class="underline font-bold text-md pb-1">About Me</h3>
         <p class="font-thin text-sm pb-2.5">
-            I’m a {{ new Date().getFullYear() - 2003 }} year old software engineer who’s a React Native and Vue.JS engineer by day but a native iOS developer by night. Crafting impactful software that serves my community and people around me is my passion.
+            I’m a {{ new Date().getFullYear() - 2001 }} year old software engineer who’s a React Native and Vue.JS engineer by day but a native iOS developer by night. Crafting impactful software that serves my community and people around me is my passion.
         </p>
         <p class="font-thin text-sm pb-2.5">
             I thrive on staying updated with the latest design trends and development frameworks across all platforms. While my heart lies in native app design and development, I also excel in cross-platform app and web development, which keeps the bills paid.
