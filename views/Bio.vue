@@ -23,17 +23,15 @@
     <div class="pt-7">
         <h3 class="underline font-bold text-md pb-1">About Me</h3>
         <p class="font-thin text-sm pb-2.5">
-            I’m a {{ new Date().getFullYear() - 2001 }} year old Computing and Digital Media graduate. ’m a 24-year-old 
-            Computing and Digital Media graduate with a passion for all things creative — from graphic design and front-end 
+            I’m a {{ new Date().getFullYear() - 2001 }} year old Computing and Digital Media graduate with a passion for all things creative, from graphic design and front-end 
             web development to 3D and motion work. I enjoy exploring design in many forms, whether it’s building clean, interactive 
-            websites or experimenting with visuals in Blender. I’m proficient in Adobe Creative Suite (Illustrator, Photoshop, After Effects) 
+            websites, experimenting with visuals and animations in Blender or creating video edits of my current interests. I’m proficient in Adobe Creative Suite (Illustrator, Photoshop, After Effects) 
             and also work with DaVinci Resolve for video editing. 
-            At the core, I love combining technology and creativity to bring ideas to life.
+            At my core, I love combining technology and creativity to bring ideas to life.
         </p>
         <p class="font-thin text-sm pb-2.5">
             I thrive on staying updated with the latest design trends and development frameworks across all platforms. 
-            While my heart lies in the design aspect, I am also proficient in cross-platform app and web development, 
-            which seems to be the one which will keep the bills paid.
+            While my heart lies in the design aspect, I am also proficient in cross-platform app and web development.
         </p>
         <p class="font-thin text-sm pb-2.5">
            I am also extremely interested and passionate about game design. I am currently working on a 2D pixel idle game in my free time using
@@ -56,7 +54,13 @@
         <h3 class="pb-1"><b>NWSPCA Ballina (2022 - Present)</b></h3>
         <h6 class="text-gray-600 font-medium text-xs">Volunteer</h6>
         <p class="font-thin text-sm pb-2.5">
-            Four years ago, NOSSAFLEX was conceived as a joint venture project between myself, Josh, our designer from Melbourne, and Diego, our lead developer from Virginia. It aims to digitalize the analog photographer's workflow with a series of tools in the form of an iOS application. The app has since undergone multiple redesigns and has been featured on Channel 8 (Singapore), Apple's Entrepreneur Camp website, and was also recently submitted by Apple South Asia team for consideration in the Apple Design Awards.
+           Designed and developed the official NWSPCA Ballina website using WordPress.
+
+Managed hosting, domain registration, and SSL certificates to ensure secure site performance.
+Conducted a full social media audit and competitor analysis to identify growth opportunities.
+Created a social media strategy with posting schedules, content themes, and mockups.
+Designed posters, branded graphics, and digital content to boost engagement.
+Set up analytics tracking to measure and report on campaign performance.
         </p>
     </div>
 
@@ -64,15 +68,17 @@
         <h3 class="pb-1"><b>Galway Film Fleadh VR Assistant (2025)</b></h3>
         <h6 class="text-gray-600 font-medium text-sm">Volunteer</h6>
         <p class="font-thin text-sm pb-2.5">
-            At Signal's Cloud & Digital Office (CADO), I served as the team's Lead Engineer and Designer. My role involves leading the development of application and software by applying my expertise in React Native and Vue.JS. Building robust solutions, tailored to the evolving need of the military.
+           Supported the VR immersive experience at the Galway Film Fleadh by setting up and managing equipment and assisting attendees. 
+           Provided on-site technical support, including troubleshooting, device maintenance, and user guidance throughout the event.
         </p>
     </div>
 
     <div class="pt-7">
-        <h3 class="pb-1"><b>Art Commisions (2020 - 2022)</b></h3>
-        <h6 class="text-gray-600 font-medium text-xs">Digital and Traditional Art</h6>
+        <h3 class="pb-1"><b>Freelance Artist & Designer (2020 - 2022)</b></h3>
+        <h6 class="text-gray-600 font-medium text-xs">Self-Employed</h6>
         <p class="font-thin text-sm pb-2.5">
-            Utilised Vue.js and Tailwind CSS to construct an e-commerce portal for merchants. Leveraged skills and experience in Figma to design a cross-platform application by applying Material 3 design. The application has since been deployed and is currently in use by merchants.
+            Delivered commisioned creative work which included paintings, jewellery, and digital artwork. This
+            helped me develop strong skills in time management, communication with clients, and problem solving.
         </p>
     </div>
 
@@ -80,29 +86,38 @@
 
     <div class="pt-7">
         <h3 class="underline font-bold text-md pb-1">Projects & Certificates</h3>
-      <p class="font-thin text-sm pb-2.5">
-                Check out all my certificates
-                <a style="color: #ff5733" href="https://github.com/DonChiaQE/ReGen">here</a>!
-            </p>
     </div>
 
     <div class="pt-7">
 
-        <div class="">
-            <h3 class="pb-1"><b>Codeacademy Certificates</b></h3>
-            <h6 class="text-gray-600 font-medium text-xs">Design & Programming</h6>
-            <p class="font-thin text-sm pb-2.5">
-                Analog was shortlisted by Apple South Asia Developer Relations team and submitted to Apple Cupertino HQ for consideration in Apple’s annual Design Award. Apple’s South Asia DR team praised Analog for its adherence to Apple’s Human Interaction guidelines while adding a unique UI spin to the application’s design
-
-            </p>
-        </div>
+       <div class="pt-7">
+    <h3 class="pb-1"><b>Codeacademy Certificates</b></h3>
+    
+    <ul class="font-thin text-sm pb-2.5 list-disc pl-5">
+        <li>Design Thinking</li>
+        <li>Software Design Principles</li>
+        <li>Cybersecurity for business</li>
+        <li>Code Foundations</li>
+        <li>Learn Colour Design</li>
+    </ul>
+    <p class="font-thin text-sm pb-2.5">
+        Currently learning Building Interactive JavaScript Websites course as well as the UX Designer career path course.
+    </p>
+</div>
 
         <div class="pt-7">
             <h3 class="pb-1"><b>The Open University Certificates</b></h3>
-            <h6 class="text-gray-600 font-medium text-xs">Art History and Visual Design</h6>
+             <ul class="font-thin text-sm pb-2.5 list-disc pl-5">
+        <li>The Byzantine Icon</li>
+        <li>Art in Renaissance Venice</li>
+        <li>Art and Visual  Culture: Medieval to Modern</li>
+    </ul>
+
             <p class="font-thin text-sm pb-2.5">
-                Analog was accepted into Apple’s Entrepreneur Camp 2023, an international programme designed to support developers providing access to Apple Engineers and Leaders to accelerate the growth of their app-driven businesses.
+             Currently learning the People-Centered Designing and The Power of Infographics
+             in the Research Dissemination courses.
             </p>
+            
         </div>
      
 
@@ -111,8 +126,8 @@
     </div>
 
     <div class="pt-7">
-        <h3 class="pb-1"><b>Résumé</b></h3>
-        <a style="color: #ff5733" href="/files/don_chia_resume.pdf" class="font-thin text-sm pb-2.5">Check out my résumé here.</a>
+        <h3 class="pb-1"><b>CV</b></h3>
+        <a style="color: #008080" href="/files/don_chia_resume.pdf" class="font-thin text-sm pb-2.5">Check out my CV here.</a>
     </div>
 </div>
 </template>
