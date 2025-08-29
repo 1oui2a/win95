@@ -16,4 +16,14 @@ export default defineNuxtConfig({
       cssCodeSplit: false,
     },
   },
+  // GitHub Pages configuration
+  ssr: false, // Disable server-side rendering for static generation
+  nitro: {
+    prerender: {
+      routes: ['/'] 
+    }
+  },
+  app: {
+    baseURL: '/1oui2a/win95', 
+  }
 })
