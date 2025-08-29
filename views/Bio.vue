@@ -23,65 +23,74 @@
     <div class="pt-7">
         <h3 class="underline font-bold text-md pb-1">About Me</h3>
         <p class="font-thin text-sm pb-2.5">
-            I’m a {{ new Date().getFullYear() - 2001 }} year old software engineer who’s a React Native and Vue.JS engineer by day but a native iOS developer by night. Crafting impactful software that serves my community and people around me is my passion.
+            I’m a {{ new Date().getFullYear() - 2001 }} year old Computing and Digital Media graduate. ’m a 24-year-old 
+            Computing and Digital Media graduate with a passion for all things creative — from graphic design and front-end 
+            web development to 3D and motion work. I enjoy exploring design in many forms, whether it’s building clean, interactive 
+            websites or experimenting with visuals in Blender. I’m proficient in Adobe Creative Suite (Illustrator, Photoshop, After Effects) 
+            and also work with DaVinci Resolve for video editing. 
+            At the core, I love combining technology and creativity to bring ideas to life.
         </p>
         <p class="font-thin text-sm pb-2.5">
-            I thrive on staying updated with the latest design trends and development frameworks across all platforms. While my heart lies in native app design and development, I also excel in cross-platform app and web development, which keeps the bills paid.
+            I thrive on staying updated with the latest design trends and development frameworks across all platforms. 
+            While my heart lies in the design aspect, I am also proficient in cross-platform app and web development, 
+            which seems to be the one which will keep the bills paid.
         </p>
         <p class="font-thin text-sm pb-2.5">
-            At 17, I co-founded NOSSAFLEX with developers from Australia and the US. Since then, it has garnered attention, being featured on local television, Apple’s annual Entrepreneur Camp, and earning a nomination from Apple’s regional team for their annual design awards.
+           I am also extremely interested and passionate about game design. I am currently working on a 2D pixel idle game in my free time using
+           Blender for 3D models, aseprite for the pixel art and unity with C# for the game development. Game dev and design can incoporate so many things
+           which is why I love it.
         </p>
         <p class="font-thin text-sm pb-2.5">
-            Having collaborated with diverse companies worldwide, from e-commerce to art and design industries, I've honed the ability to manage multiple projects simultaneously across various time zones.
+            Most of my inspiration comes from actually being outside in the world. Touching grass some might say. Seeing the ways the colours reflect in puddles,
+            how the birds chirp at each other, or simply enjoying a walk with music in switches something in my brain.
         </p>
         <p class="font-thin text-sm pb-2.5">
-            In my spare time, I indulge in scrolling through analog camera listings or admiring my collection, although shooting has taken a backseat due to my various work commitments.
+            My main hobbies include fashion, gaming, and creating, whether its digital art or traditional. Who could have guessed.
         </p>
+
     </div>
     <div class="pt-7">
-        <h3 class="underline font-bold text-md pb-1">Employment History</h3>
+        <h3 class="underline font-bold text-md pb-1">Work Experience</h3>
     </div>
     <div class="pt-7">
-        <h3 class="pb-1"><b>NOSSAFLEX (2020 - Present)</b></h3>
-        <h6 class="text-gray-600 font-medium text-xs">Co-Founder, iOS Engineer</h6>
+        <h3 class="pb-1"><b>NWSPCA Ballina (2022 - Present)</b></h3>
+        <h6 class="text-gray-600 font-medium text-xs">Volunteer</h6>
         <p class="font-thin text-sm pb-2.5">
             Four years ago, NOSSAFLEX was conceived as a joint venture project between myself, Josh, our designer from Melbourne, and Diego, our lead developer from Virginia. It aims to digitalize the analog photographer's workflow with a series of tools in the form of an iOS application. The app has since undergone multiple redesigns and has been featured on Channel 8 (Singapore), Apple's Entrepreneur Camp website, and was also recently submitted by Apple South Asia team for consideration in the Apple Design Awards.
         </p>
     </div>
 
     <div class="pt-7">
-        <h3 class="pb-1"><b>MINDEF Signals Cloud & Digital Office (2023 - Present)</b></h3>
-        <h6 class="text-gray-600 font-medium text-sm">Core Team, Lead Engineer</h6>
+        <h3 class="pb-1"><b>Galway Film Fleadh VR Assistant (2025)</b></h3>
+        <h6 class="text-gray-600 font-medium text-sm">Volunteer</h6>
         <p class="font-thin text-sm pb-2.5">
             At Signal's Cloud & Digital Office (CADO), I served as the team's Lead Engineer and Designer. My role involves leading the development of application and software by applying my expertise in React Native and Vue.JS. Building robust solutions, tailored to the evolving need of the military.
         </p>
     </div>
 
     <div class="pt-7">
-        <h3 class="pb-1"><b>Fundigo Co. (2022 - Present)</b></h3>
-        <h6 class="text-gray-600 font-medium text-xs">Core Team, Frontend Engineer & UI/UX Designer</h6>
+        <h3 class="pb-1"><b>Art Commisions (2020 - 2022)</b></h3>
+        <h6 class="text-gray-600 font-medium text-xs">Digital and Traditional Art</h6>
         <p class="font-thin text-sm pb-2.5">
             Utilised Vue.js and Tailwind CSS to construct an e-commerce portal for merchants. Leveraged skills and experience in Figma to design a cross-platform application by applying Material 3 design. The application has since been deployed and is currently in use by merchants.
         </p>
     </div>
 
-    <div class="pt-7">
-        <h3 class="pb-1"><b>Current Inc. (2023 - 2024)</b></h3>
-        <h6 class="text-gray-600 font-medium text-xs">Core Team, iOS Engineer</h6>
-        <p class="font-thin text-sm pb-2.5">
-            Developed a mobile application for a startup based in California that provides a platform for users to look for EV chargers. The application was built using Apple's SwiftUI framework and was designed to be user-friendly and intuitive.
-        </p>
-    </div>
+    
 
     <div class="pt-7">
-        <h3 class="underline font-bold text-md pb-1">Projects & Achievements</h3>
+        <h3 class="underline font-bold text-md pb-1">Projects & Certificates</h3>
+      <p class="font-thin text-sm pb-2.5">
+                Check out all my certificates
+                <a style="color: #ff5733" href="https://github.com/DonChiaQE/ReGen">here</a>!
+            </p>
     </div>
 
     <div class="pt-7">
 
         <div class="">
-            <h3 class="pb-1"><b>Apple Design Awards 2024</b></h3>
-            <h6 class="text-gray-600 font-medium text-xs">Shortlisted Regionally</h6>
+            <h3 class="pb-1"><b>Codeacademy Certificates</b></h3>
+            <h6 class="text-gray-600 font-medium text-xs">Design & Programming</h6>
             <p class="font-thin text-sm pb-2.5">
                 Analog was shortlisted by Apple South Asia Developer Relations team and submitted to Apple Cupertino HQ for consideration in Apple’s annual Design Award. Apple’s South Asia DR team praised Analog for its adherence to Apple’s Human Interaction guidelines while adding a unique UI spin to the application’s design
 
@@ -89,67 +98,16 @@
         </div>
 
         <div class="pt-7">
-            <h3 class="pb-1"><b>Apple Entrepreneur Camp 2023</b></h3>
-            <h6 class="text-gray-600 font-medium text-xs">Accepted</h6>
+            <h3 class="pb-1"><b>The Open University Certificates</b></h3>
+            <h6 class="text-gray-600 font-medium text-xs">Art History and Visual Design</h6>
             <p class="font-thin text-sm pb-2.5">
                 Analog was accepted into Apple’s Entrepreneur Camp 2023, an international programme designed to support developers providing access to Apple Engineers and Leaders to accelerate the growth of their app-driven businesses.
             </p>
         </div>
-        
-        <div class="pt-7">
-            <h3 class="pb-1"><b>SAF Innovation Award 2023 - OMNIA Application by Signals Cloud & Digital Office</b></h3>
-            <h6 class="text-gray-600 font-medium text-xs">Awarded</h6>
-            <p class="font-thin text-sm pb-2.5">
-                OMNIA web application was awarded SAF’s Innovation Award in 2023, it successfully served its purpose as a management app for Exercise Forging Sabre held in Idaho, USA.
-            </p>
-        </div>
+     
 
-        <div class="pt-7">
-            <h3 class="pb-1"><b>Apple WWDC Scholar 2022</b></h3>
-            <h6 class="text-gray-600 font-medium text-xs">Awarded</h6>
-            <p class="font-thin text-sm pb-2.5">
-                Yet another successful attempt at Apple's international coding
-                competition. By making use of SwiftUI once more, I created a short app
-                experience that explores recursive art patterns and abstract art. With
-                the help of generative art, I was able to create a unique experience
-                that most people would have rarely come across.
-            </p>
-            <p class="font-thin text-sm pb-2.5">
-                Check out my submission
-                <a style="color: #ff5733" href="https://github.com/DonChiaQE/ReGen">here</a>!
-            </p>
-            <p class="font-thin text-sm pb-2.5">
-                As this news has only just recently reached me, I will be updating this
-                section once more when I have receive more news from Apple HQ.
-            </p>
-        </div>
-
-        <div class="pt-7">
-            <h3 class="pb-1"><b>Apple WWDC Scholar 2021</b></h3>
-            <h6 class="text-gray-600 font-medium text-xs">Awarded</h6>
-            <p class="font-thin text-sm pb-2.5">
-                My second try at Apple's international coding competition was finally a
-                successful one. Making use of my prowess with web development, I decided
-                to create a Swift Playground project that taught users how to make use
-                of HTML and CSS to create a simple website.
-            </p>
-            <p class="font-thin text-sm pb-2.5">
-                Making use of Apple's SwiftUI framework as well as the nifty WKWebView
-                API, I managed to create a working editor that would allow users to
-                meddle with HTML and CSS. I proceeded to create a playground book
-                project around that idea and came up with a tutorial sequence for the
-                user to follow.
-            </p>
-            <p class="font-thin text-sm pb-2.5">
-                Check out my submission
-                <a style="color: #ff5733" href="https://github.com/DonChiaQE/WWDC2021">here</a>!
-            </p>
-            <p class="font-thin text-sm pb-2.5">
-                And check out my interview with the local news outlet regarding
-                NOSSAFLEX and my WWDC experience
-                <a style="color: #ff5733" href="https://www.youtube.com/watch?v=RwtzXxSSJAc">right here</a>!
-            </p>
-        </div>
+       
+       
     </div>
 
     <div class="pt-7">
