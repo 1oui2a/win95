@@ -24,6 +24,6 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: '/1oui2a/win95', 
+    baseURL: '/win95/', 
   }
 })
