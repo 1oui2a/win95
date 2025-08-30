@@ -19,10 +19,10 @@ import yarncat from '@/assets/digitalart/yarncat1.png';
 import sunsetboat from '@/assets/digitalart/sunsetboat.jpg';
 import selfportrait1 from '@/assets/digitalart/selfportrait1.png';
 //App mockups
-import homepage from '@/assets/wickapp/homepage.png';
-import login from '@/assets/wickapp/login.png';
-import task from '@/assets/wickapp/task.png';
-import onboarding from '@/assets/wickapp/onboarding.png';
+import homepagewick from '@/assets/wickapp/homepage.png';
+import loginwick from '@/assets/wickapp/login.png';
+import taskwick from '@/assets/wickapp/task.png';
+import onboardingwick from '@/assets/wickapp/onboarding.png';
 // 3d models
 import foxfront from '@/assets/3dmodels/fox_front.png';
 import sushi from '@/assets/3dmodels/sushi.png';
@@ -442,7 +442,7 @@ export const useWindowsStore = defineStore("windows", {
                   id: 0,
                   title: "Wick App Home Page",
                   type: "photo",
-                  src: homepage,
+                  src: homepagewick,
                   altText: "homepage.png",
                   size: 1853391,
                 },
@@ -450,7 +450,7 @@ export const useWindowsStore = defineStore("windows", {
                   id: 1,
                   title: "Wick App Login",
                   type: "photo",
-                  src: login,
+                  src: loginwick,
                   altText: "login.png",
                   size: 1853391,
                 },
@@ -458,7 +458,7 @@ export const useWindowsStore = defineStore("windows", {
                   id: 2,
                   title: "Wick App Task",
                   type: "photo",
-                  src: task,
+                  src: taskwick,
                   altText: "task.png",
                   size: 1853391,
                 },
@@ -466,13 +466,11 @@ export const useWindowsStore = defineStore("windows", {
                   id: 3,
                   title: "Wick App Onboarding",
                   type: "photo",
-                  src: onboarding,
+                  src: onboardingwick,
                   altText: "onboarding.png",
                   size: 1853391,
                 },
 
-               
-                
                
               ],
               size: 19704734,
