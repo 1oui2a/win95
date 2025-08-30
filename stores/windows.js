@@ -24,8 +24,8 @@ import selfportrait1 from '@/assets/digitalart/selfportrait1.png';
 //import task from '@/assets/wickapp/task.png';
 //import onboarding from '@/assets/wickapp/onboarding.png';
 // 3d models
-import foxfront from '@/assets/3dmodels/fox_front.png';
-import sushi from '@/assets/3dmodels/sushi.png';
+//import foxfront from '@/assets/3dmodels/fox_front.png';
+//import sushi from '@/assets/3dmodels/sushi.png';
 
 
 export const useWindowsStore = defineStore("windows", {
@@ -450,22 +450,7 @@ export const useWindowsStore = defineStore("windows", {
               id: 6,
               title: "3D Models",
               content: [
-                {
-                  id: 0,
-                  title: "Fox Front",
-                  type: "photo",
-                  src: foxfront,
-                  altText: "fox front",
-                  size: 16608265,
-                },
-                {
-                  id: 1,
-                  title: "Sushi",
-                  type: "photo",
-                  src: sushi,
-                  altText: "sushi",
-                  size: 16608265,
-                },
+                
                 
               ],
               size: 16608265,
