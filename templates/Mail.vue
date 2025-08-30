@@ -295,7 +295,7 @@ onMounted(() => {
                 <hr />
                 <div class="subject-container">
                     <p style="margin: 8px">To:</p>
-                    <div class="receipient">Don</div>
+                    <div class="receipient">Louiza</div>
                 </div>
                 <hr />
                 <div class="subject-container">

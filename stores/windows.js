@@ -1,4 +1,7 @@
 import { defineStore } from "pinia";
+import ferrisWheel from '@/assets/photography/ferriswheel.jpg';
+import beachwalk from '@/assets/photography/beachwalk.jpg';
+
 
 export const useWindowsStore = defineStore("windows", {
   state: () => ({
@@ -261,22 +264,22 @@ export const useWindowsStore = defineStore("windows", {
             },
             {
               id: 1,
-              title: "Pictures",
+              title: "Photo graphy",
               content: [
                 {
                   id: 0,
-                  title: "FX7-8.JPG",
+                  title: "Ferris Wheel",
                   type: "photo",
-                  src: "",
-                  altText: "FX7-8.JPG",
+                  src: ferrisWheel,
+                  altText: "Ferris Wheel",
                   size: 2705525,
                 },
                 {
                   id: 1,
-                  title: "FX7-1.JPG",
+                  title: "Beach Sunset",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Yashica FX-7/FX7-1.JPG",
-                  altText: "FX7-1.JPG",
+                  src: beachwalk,
+                  altText: "Beach Sunset",
                   size: 3285824,
                 },
                 {
