@@ -95,11 +95,11 @@ export const useWindowsStore = defineStore("windows", {
         // imagePreview: file.src
       },
       {
-        windowId: "NOSSAFLEXWindow",
+        windowId: "WickAppWindow",
         windowState: "close",
-        displayName: "NOSSAFLEX",
+        displayName: "Wick App",
         windowComponent: "window",
-        windowContent: "nossaflex",
+        windowContent: "wickapp",
         windowContentPadding: {
           top: null,
           right: null,
@@ -110,7 +110,7 @@ export const useWindowsStore = defineStore("windows", {
         positionX: "6vw",
         positionY: "12vh",
         iconImage: "noss.webp",
-        altText: "NOSSAFLEX App",
+        altText: "Wick App",
         fullscreen: false,
         showInAppGrid: true,
         showInNavbar: true,
@@ -137,11 +137,11 @@ export const useWindowsStore = defineStore("windows", {
     //     showInNavbar: true,
     //   },
     {
-        windowId: "AppleWWDC2021",
+        windowId: "WebDevWindow",
         windowState: "close",
-        displayName: "WWDC 2021",
+        displayName: "Web Design & Dev",
         windowComponent: "window",
-        windowContent: "wwdc2021",
+        windowContent: "webdev",
         windowContentPadding: {
           top: null,
           right: null,

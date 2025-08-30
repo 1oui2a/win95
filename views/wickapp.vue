@@ -64,8 +64,10 @@
     </div>
   </template>
 
-<script setup>
-// Add your component logic here
+<script>
+export default {
+  name: "wickapp"
+}
 </script>
   
   

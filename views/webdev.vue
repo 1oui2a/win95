@@ -14,6 +14,12 @@
       
     </div>
   </template>
+
+  <script>
+export default {
+  name: "webdev"
+}
+</script>
   
   <style scoped>
   .hero {
