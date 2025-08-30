@@ -20,9 +20,9 @@ import sunsetboat from '@/assets/digitalart/sunsetboat.jpg';
 import selfportrait1 from '@/assets/digitalart/selfportrait1.png';
 //App mockups
 //import homepage from '@/assets/wickapp/HomePage.png';
-import login from '@/assets/wickapp/login.png';
-import task from '@/assets/wickapp/task.png';
-import onboarding from '@/assets/wickapp/onboarding.png';
+//import login from '@/assets/wickapp/login.png';
+//import task from '@/assets/wickapp/task.png';
+//import onboarding from '@/assets/wickapp/onboarding.png';
 // 3d models
 import foxfront from '@/assets/3dmodels/fox_front.png';
 import sushi from '@/assets/3dmodels/sushi.png';
@@ -439,30 +439,7 @@ export const useWindowsStore = defineStore("windows", {
               title: "App Mockups",
               content: [
                
-                {
-                  id: 0,
-                  title: "Wick Login",
-                  type: "photo",
-                  src: login,
-                  altText: "login wick",
-                  size: 1035244,
-                },
-                {
-                  id: 1,
-                  title: "Wick Task",
-                  type: "photo",
-                  src: task,
-                  altText: "task wick",
-                  size: 1035244,
-                },
-                {
-                  id: 2,
-                  title: "Wick Onboarding",
-                  type: "photo",  
-                  src: onboarding,
-                  altText: "onboarding wick",
-                  size: 1035244,
-                },
+                
                
               ],
               size: 19704734,
