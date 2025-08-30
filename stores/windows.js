@@ -18,14 +18,15 @@ import wickfinal from '@/assets/logos/wickfinal.png';
 import yarncat from '@/assets/digitalart/yarncat1.png';
 import sunsetboat from '@/assets/digitalart/sunsetboat.jpg';
 import selfportrait1 from '@/assets/digitalart/selfportrait1.png';
+import prettygirl from '@/assets/digitalart/prettygirl.png';
 //App mockups
-import homepagewick from '@/assets/wickapp/homepage.png';
-import loginwick from '@/assets/wickapp/login.png';
-import taskwick from '@/assets/wickapp/task.png';
-import onboardingwick from '@/assets/wickapp/onboarding.png';
+//import homepage from '@/assets/wickapp/homepage.png';
+//import login from '@/assets/wickapp/login.png';
+//import task from '@/assets/wickapp/task.png';
+//import onboarding from '@/assets/wickapp/onboarding.png';
 // 3d models
-import foxfront from '@/assets/3dmodels/fox_front.png';
-import sushi from '@/assets/3dmodels/sushi.png';
+//import foxfront from '@/assets/3dmodels/fox_front.png';
+//import sushi from '@/assets/3dmodels/sushi.png';
 
 
 export const useWindowsStore = defineStore("windows", {
@@ -427,6 +428,14 @@ export const useWindowsStore = defineStore("windows", {
                   altText: "selfportrait1.png",
                   size: 1853391,
                 },
+                {
+                  id: 3,
+                  title: "PrettyGirl",
+                  type: "photo",
+                  src: prettygirl,
+                  altText: "prettygirl.png",
+                  size: 1853391,
+                },
 
                 
               ],
@@ -438,38 +447,7 @@ export const useWindowsStore = defineStore("windows", {
               id: 5,
               title: "App Mockups",
               content: [
-                {
-                  id: 0,
-                  title: "Wick App Home Page",
-                  type: "photo",
-                  src: homepagewick,
-                  altText: "homepage.png",
-                  size: 1853391,
-                },
-                {
-                  id: 1,
-                  title: "Wick App Login",
-                  type: "photo",
-                  src: loginwick,
-                  altText: "login.png",
-                  size: 1853391,
-                },
-                {
-                  id: 2,
-                  title: "Wick App Task",
-                  type: "photo",
-                  src: taskwick,
-                  altText: "task.png",
-                  size: 1853391,
-                },
-                {
-                  id: 3,
-                  title: "Wick App Onboarding",
-                  type: "photo",
-                  src: onboardingwick,
-                  altText: "onboarding.png",
-                  size: 1853391,
-                },
+               
 
                
               ],
@@ -481,22 +459,7 @@ export const useWindowsStore = defineStore("windows", {
               id: 6,
               title: "3D Models",
               content: [
-                {
-                  id: 0,
-                  title: "Fox Model Front",
-                  type: "photo",
-                  src: foxfront,
-                  altText: "fox_front.png",
-                  size: 1853391,
-                },
-                {
-                  id: 1,
-                  title: "Sushi Model",
-                  type: "photo",
-                  src: sushi,
-                  altText: "sushi.png",
-                  size: 1853391,
-                },
+                
                 
                 
               ],
