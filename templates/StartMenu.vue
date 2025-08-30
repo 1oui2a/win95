@@ -17,7 +17,7 @@
                 <u>L</u>inkedIn
             </div>
         </a>
-        <a href="https://twitter.com/lizarDON2303" target="_blank">
+        <a href="" target="_blank">
             <div class="bar">
                 <img class="social-image" src="@/assets/iPhone-Icons/Twitter.webp" />
                 <u>T</u>witter
@@ -36,12 +36,7 @@
                 <u>R</u>ésumé
             </div>
         </a>
-        <a href="https://apps.apple.com/app/nossaflex/id1523558285" target="_blank">
-            <div class="bar">
-                <img class="social-image" src="@/assets/iPhone-Icons/Nossaflex.webp" />
-                <u>N</u>OSSAFLEX
-            </div>
-        </a>
+        
     </div>
 </div>
 </template>
