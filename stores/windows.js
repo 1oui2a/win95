@@ -19,7 +19,7 @@ import yarncat from '@/assets/digitalart/yarncat1.png';
 import sunsetboat from '@/assets/digitalart/sunsetboat.jpg';
 import selfportrait1 from '@/assets/digitalart/selfportrait1.png';
 //App mockups
-import homepage from '@/assets/wickapp/homepage.png';
+import homepage from '@/assets/wickapp/HomePage.png';
 import login from '@/assets/wickapp/login.png';
 import task from '@/assets/wickapp/task.png';
 import onboarding from '@/assets/wickapp/onboarding.png';
