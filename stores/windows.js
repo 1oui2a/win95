@@ -267,7 +267,7 @@ export const useWindowsStore = defineStore("windows", {
                   id: 0,
                   title: "FX7-8.JPG",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Yashica FX-7/FX7-8.JPG",
+                  src: "",
                   altText: "FX7-8.JPG",
                   size: 2705525,
                 },
