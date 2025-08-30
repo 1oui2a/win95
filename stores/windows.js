@@ -228,7 +228,7 @@ export const useWindowsStore = defineStore("windows", {
         folderContent: [
             {
               id: 0,
-              title: "Leica Q",
+              title: "Graphic Design",
               content: [
                 {
                   id: 0,
@@ -261,7 +261,7 @@ export const useWindowsStore = defineStore("windows", {
             },
             {
               id: 1,
-              title: "Yashica FX-7",
+              title: "Pictures",
               content: [
                 {
                   id: 0,
@@ -334,7 +334,7 @@ export const useWindowsStore = defineStore("windows", {
             },
             {
               id: 2,
-              title: "Mamiya RB67",
+              title: "Logos",
               content: [
                 {
                   id: 0,
@@ -527,7 +527,7 @@ export const useWindowsStore = defineStore("windows", {
             },
             {
               id: 3,
-              title: "Leica M4-P",
+              title: "Web Design",
               content: [
                 {
                   id: 0,
@@ -560,7 +560,7 @@ export const useWindowsStore = defineStore("windows", {
             },
             {
               id: 4,
-              title: "Canon FTb",
+              title: "Digital Art",
               content: [
                 {
                   id: 0,
@@ -593,7 +593,7 @@ export const useWindowsStore = defineStore("windows", {
             },
             {
               id: 5,
-              title: "Minolta Dynax",
+              title: "App Mockups",
               content: [
                 {
                   id: 0,
@@ -698,7 +698,7 @@ export const useWindowsStore = defineStore("windows", {
             },
             {
               id: 6,
-              title: "Rolleiflex K4A",
+              title: "3D Models",
               content: [
                 {
                   id: 0,
