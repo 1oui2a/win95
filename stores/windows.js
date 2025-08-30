@@ -1,6 +1,14 @@
 import { defineStore } from "pinia";
 import ferrisWheel from '@/assets/photography/ferriswheel.jpg';
 import beachwalk from '@/assets/photography/beachwalk.jpg';
+import boat from '@/assets/photography/boat.jpg';
+import rocks from '@/assets/photography/rocks.jpg';
+
+import card1 from '@/assets/graphicdesign/card1.png';
+import card2 from '@/assets/graphicdesign/card2.png';
+import card3 from '@/assets/graphicdesign/card3.png';
+import card4 from '@/assets/graphicdesign/card4.png';
+import poster1 from '@/assets/graphicdesign/poster1.png';
 
 
 export const useWindowsStore = defineStore("windows", {
@@ -235,26 +243,42 @@ export const useWindowsStore = defineStore("windows", {
               content: [
                 {
                   id: 0,
-                  title: "Q-3.JPG",
+                  title: "Business card 1",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Leica Q/Q-3.JPG",
-                  altText: "Q-3.JPG",
+                  src: card1,
+                  altText: "card1",
                   size: 2477506,
                 },
                 {
                   id: 1,
-                  title: "Q-2.JPG",
+                  title: "Business card 2",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Leica Q/Q-2.JPG",
-                  altText: "Q-2.JPG",
+                  src: card2,
+                  altText: "card2.png",
                   size: 1265051,
                 },
                 {
                   id: 2,
-                  title: "Q-1.JPG",
+                  title: "Business card 3",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Leica Q/Q-1.JPG",
-                  altText: "Q-1.JPG",
+                  src: card3,
+                  altText: "card3.png",
+                  size: 1366527,
+                },
+                 {
+                  id: 2,
+                  title: "Business card 4",
+                  type: "photo",
+                  src: card4,
+                  altText: "card4.png",
+                  size: 1366527,
+                },
+                  {
+                  id: 2,
+                  title: "Psychedelic Pop Poster",
+                  type: "photo",
+                  src: poster1,
+                  altText: "poster1.png",
                   size: 1366527,
                 },
               ],
@@ -284,52 +308,21 @@ export const useWindowsStore = defineStore("windows", {
                 },
                 {
                   id: 2,
-                  title: "FX7-2.JPG",
+                  title: "Boat on Water",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Yashica FX-7/FX7-2.JPG",
-                  altText: "FX7-2.JPG",
+                  src: boat,
+                  altText: "Boat on Water",
                   size: 2524860,
                 },
                 {
                   id: 3,
-                  title: "FX7-3.JPG",
+                  title: "Rocks",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Yashica FX-7/FX7-3.JPG",
-                  altText: "FX7-3.JPG",
+                  src: rocks,
+                  altText: "Rocks",
                   size: 2126399,
                 },
-                {
-                  id: 4,
-                  title: "FX7-7.JPG",
-                  type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Yashica FX-7/FX7-7.JPG",
-                  altText: "FX7-7.JPG",
-                  size: 2391497,
-                },
-                {
-                  id: 5,
-                  title: "FX7-6.JPG",
-                  type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Yashica FX-7/FX7-6.JPG",
-                  altText: "FX7-6.JPG",
-                  size: 1903950,
-                },
-                {
-                  id: 6,
-                  title: "FX7-4.JPG",
-                  type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Yashica FX-7/FX7-4.JPG",
-                  altText: "FX7-4.JPG",
-                  size: 2660198,
-                },
-                {
-                  id: 7,
-                  title: "FX7-5.JPG",
-                  type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Yashica FX-7/FX7-5.JPG",
-                  altText: "FX7-5.JPG",
-                  size: 720153,
-                },
+               
               ],
               size: 18318406,
               type: "folder",
