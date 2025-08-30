@@ -16,6 +16,8 @@ import wicklogo16 from '@/assets/logos/wicklogo16.png';
 import wickfinal from '@/assets/logos/wickfinal.png';
 // digital art imports
 import yarncat from '@/assets/digitalart/yarncat1.png';
+import sunsetboat from '@/assets/digitalart/sunsetboat.jpg';
+import selfportrait1 from '@/assets/digitalart/selfportrait1.png';
 //App mockups
 import homepage from '@/assets/wickapp/homepage.png';
 import login from '@/assets/wickapp/login.png';
@@ -23,6 +25,7 @@ import task from '@/assets/wickapp/task.png';
 import onboarding from '@/assets/wickapp/onboarding.png';
 // 3d models
 import foxfront from '@/assets/3dmodels/fox_front.png';
+import sushi from '@/assets/3dmodels/sushi.png';
 
 
 export const useWindowsStore = defineStore("windows", {
@@ -388,14 +391,7 @@ export const useWindowsStore = defineStore("windows", {
               id: 3,
               title: "Web Design",
               content: [
-                {
-                  id: 0,
-                  title: "M4P-2.JPG",
-                  type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Leica M4-P/M4P-2.JPG",
-                  altText: "M4P-2.JPG",
-                  size: 616758,
-                },
+              
                 
               
               ],
@@ -415,6 +411,23 @@ export const useWindowsStore = defineStore("windows", {
                   altText: "yarncat1.png",
                   size: 1853391,
                 },
+                {
+                  id: 1,
+                  title: "Sunset Boat",
+                  type: "photo",
+                  src: sunsetboat,
+                  altText: "sunsetboat.jpg",
+                  size: 1853391,
+                },
+                {
+                  id: 2,
+                  title: "Self Portrait 1",
+                  type: "photo",
+                  src: selfportrait1,
+                  altText: "selfportrait1.png",
+                  size: 1853391,
+                },
+
                 
               ],
               size: 2980788,
@@ -473,6 +486,14 @@ export const useWindowsStore = defineStore("windows", {
                   type: "photo",
                   src: foxfront,
                   altText: "fox front",
+                  size: 16608265,
+                },
+                {
+                  id: 1,
+                  title: "Sushi",
+                  type: "photo",
+                  src: sushi,
+                  altText: "sushi",
                   size: 16608265,
                 },
                 
