@@ -18,7 +18,7 @@ import wickfinal from '@/assets/logos/wickfinal.png';
 import yarncat from '@/assets/digitalart/yarncat1.png';
 import sunsetboat from '@/assets/digitalart/sunsetboat.jpg';
 import selfportrait1 from '@/assets/digitalart/selfportrait1.png';
-import prettygirl from '@/assets/digitalart/prettygirl.png';
+import prettygirl from '@/assets/digitalart/prettygirl.jpg';
 //App mockups
 //import homepage from '@/assets/wickapp/homepage.png';
 //import login from '@/assets/wickapp/login.png';
@@ -433,7 +433,7 @@ export const useWindowsStore = defineStore("windows", {
                   title: "PrettyGirl",
                   type: "photo",
                   src: prettygirl,
-                  altText: "prettygirl.png",
+                  altText: "prettygirl.jpg",
                   size: 1853391,
                 },
 
