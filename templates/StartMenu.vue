@@ -30,7 +30,7 @@
             </div>
         </a>
         <div class="divider"></div>
-        <a href="/files/don_chia_resume.pdf" target="_blank">
+        <a href="/files/LouizaMoran.pdf" target="_blank">
             <div class="bar">
                 <img class="social-image" src="@/assets/win95Icons/resume.png" />
                 <u>R</u>ésumé

@@ -126,8 +126,9 @@ Set up analytics tracking to measure and report on campaign performance.
     </div>
 
     <div class="pt-7">
+     <img class="w-full h-auto" src="@/assets/Biography/selfportrait.png" />
         <h3 class="pb-1"><b>CV</b></h3>
-        <a style="color: #008080" href="/files/LouizaMoranCV.pdf" class="font-thin text-sm pb-2.5">Check out my CV here.</a>
+        <a style="color: #008080" href="/files/LouizaMoran.pdf" class="font-thin text-sm pb-2.5">Check out my CV here.</a>
     </div>
 </div>
 </template>

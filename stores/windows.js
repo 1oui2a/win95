@@ -14,6 +14,15 @@ import colourscheme from '@/assets/logos/colourscheme.png';
 import wick from '@/assets/logos/wick.png';
 import wicklogo16 from '@/assets/logos/wicklogo16.png';
 import wickfinal from '@/assets/logos/wickfinal.png';
+// digital art imports
+import yarncat from '@/assets/digitalart/yarncat1.png';
+//App mockups
+import homepage from '@/assets/wickapp/homepage.png';
+import login from '@/assets/wickapp/login.png';
+import task from '@/assets/wickapp/task.png';
+import onboarding from '@/assets/wickapp/onboarding.png';
+// 3d models
+import foxfront from '@/assets/3dmodels/fox_front.png';
 
 
 export const useWindowsStore = defineStore("windows", {
@@ -400,10 +409,10 @@ export const useWindowsStore = defineStore("windows", {
               content: [
                 {
                   id: 0,
-                  title: "FTb-3.JPG",
+                  title: "Yarn Cat",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Canon FTb/FTb-3.JPG",
-                  altText: "FTb-3.JPG",
+                  src: yarncat,
+                  altText: "yarncat1.png",
                   size: 1853391,
                 },
                 
@@ -418,11 +427,35 @@ export const useWindowsStore = defineStore("windows", {
               content: [
                 {
                   id: 0,
-                  title: "Dynax-4.JPG",
+                  title: "Wick Homepage",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Minolta Dynax/Dynax-4.JPG",
-                  altText: "Dynax-4.JPG",
+                  src: homepage,
+                  altText: "homepage wick",
                   size: 1565244,
+                },
+                {
+                  id: 1,
+                  title: "Wick Login",
+                  type: "photo",
+                  src: login,
+                  altText: "login wick",
+                  size: 1035244,
+                },
+                {
+                  id: 2,
+                  title: "Wick Task",
+                  type: "photo",
+                  src: task,
+                  altText: "task wick",
+                  size: 1035244,
+                },
+                {
+                  id: 3,
+                  title: "Wick Onboarding",
+                  type: "photo",  
+                  src: onboarding,
+                  altText: "onboarding wick",
+                  size: 1035244,
                 },
                
               ],
@@ -436,11 +469,11 @@ export const useWindowsStore = defineStore("windows", {
               content: [
                 {
                   id: 0,
-                  title: "K4A-1.JPG",
+                  title: "Fox Front",
                   type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Rolleiflex K4A/K4A-1.JPG",
-                  altText: "K4A-1.JPG",
-                  size: 4533313,
+                  src: foxfront,
+                  altText: "fox front",
+                  size: 16608265,
                 },
                 
               ],
@@ -448,42 +481,8 @@ export const useWindowsStore = defineStore("windows", {
               type: "folder",
               altText: "Rolleiflex K4A",
             },
-            {
-              id: 7,
-              title: "Fuji G617",
-              content: [
-                {
-                  id: 0,
-                  title: "G617-3.JPG",
-                  type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Fuji G617/G617-3.JPG",
-                  altText: "G617-3.JPG",
-                  size: 1783412,
-                },
-               
-              ],
-              size: 8310501,
-              type: "folder",
-              altText: "Fuji G617",
-            },
-            {
-              id: 8,
-              title: "Leica M3",
-              content: [
-                {
-                  id: 0,
-                  title: "M3-33.JPG",
-                  type: "photo",
-                  src: "https://d3eubay99a85fr.cloudfront.net/Win95 Photos/Leica M3/M3-33.JPG",
-                  altText: "M3-33.JPG",
-                  size: 852940,
-                },
-                
-              ],
-              size: 87783732,
-              type: "folder",
-              altText: "Leica M3",
-            },
+           
+            
           ],
         folderSize: 300000
     },
