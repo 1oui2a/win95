@@ -50,6 +50,21 @@
     <div class="pt-7">
         <h3 class="underline font-bold text-md pb-1">Work Experience</h3>
     </div>
+
+    <div class="pt-7">
+        <h3 class="pb-1"><b>Starfish Magazine Web Dev & Design (Sep 2025 - Jan 2026)</b></h3>
+        <h6 class="text-gray-600 font-medium text-xs">Internship</h6>
+        <p class="font-thin text-sm pb-2.5">
+           Designed and developed the official Starfish Magazine website using Squarespace.
+
+Managed hosting, domain registration, and SSL certificates to ensure secure site performance.
+Conducted a full social media audit and competitor analysis to identify growth opportunities.
+Created a social media strategy with posting schedules, content themes, and mockups.
+Designed posters, branded graphics, and digital content to boost engagement.
+Set up analytics tracking to measure and report on campaign performance.
+        </p>
+    </div>
+
     <div class="pt-7">
         <h3 class="pb-1"><b>NWSPCA Ballina (2022 - Present)</b></h3>
         <h6 class="text-gray-600 font-medium text-xs">Volunteer</h6>

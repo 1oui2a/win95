@@ -30,8 +30,8 @@ const slotViews = [
   { name: 'resume', comp: Resume },
   { name: 'wickapp', comp: WickApp },
   { name: 'webdev', comp: WebDev },
-  { name: 'wwdc2022', comp: Wwdc2022 },
-  { name: 'wwdc2023', comp: Wwdc2023 }
+    { name: 'gamedev', comp: Wwdc2022 },
+    { name: 'design', comp: Wwdc2023 }
 ]
 
 const windowCheck = (windowId) => {
