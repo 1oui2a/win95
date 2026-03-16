@@ -1,5 +1,15 @@
 <template>
 
+<div>
+    <img src="" alt="Design" class="hero" />
+    <div class="inner-content">
+        <h3 class="heading"><b>Graphic Design</b></h3>
+        <p class="paragraph">
+            </p>
+    </div>
+    
+</div>
+
 </template>
 
 <style scoped>

@@ -1,8 +1,15 @@
 <script setup>
-import {
-    useWindowsStore
-} from '@/stores/windows'
+import { ref } from 'vue'
+import { useWindowsStore } from '@/stores/windows'
 const windowsStore = useWindowsStore()
+
+const cvSources = [
+    
+    'https://drive.google.com/file/d/1cTGcY8cgAg03tHyddZYTitC4VThygeOw/preview',
+    'https://drive.google.com/file/d/1pFY22mkSIJ8N-WomArhM28Z3TSjEm0OY/preview'
+]
+const currentSrc = ref(cvSources[0])
+function switchCV(i) { currentSrc.value = cvSources[i] }
 </script>
 
 <template>
@@ -15,21 +22,28 @@ const windowsStore = useWindowsStore()
             </span>
         </a>
 
-        <a href="/files/LouizaMoran.pdf" class="download" style="z-index: 10" target="_blank">
+        <a :href="currentSrc" class="download" style="z-index: 10" target="_blank">
             <span style="display: flex" class="border">
                 <img src="@/assets/Resume/open.png" class="icon-image" />
                 <p style="margin-top: 2px">Open In New Tab</p>
             </span>
         </a>
+
+        <div style="margin-left: 8px; display:flex; gap:6px; align-items:center">
+            <button class="download" @click="switchCV(0)">CV 1</button>
+            <button class="download" @click="switchCV(1)">CV 2</button>
+            
+        </div>
     </nav>
-    <div class="frame" style="z-index: 99">
-        <iframe class="frame" src="https://drive.google.com/file/d/131xremMcT7RUaPGHigGgfw26MCxjPY59/preview"></iframe>
+    
+    <div class="frame" style="z-index: 99; position: relative;">
+        <iframe class="frame-embed" :src="currentSrc"></iframe>
         <span v-if="windowsStore.activeWindow != 'ResumeWindow'" style="bottom: 0; left: 0; width: 100%; height: 95%; position: absolute" class="overlay"></span>
     </div>
+    
 </div>
 </template>
 
-  
   
 <style scoped>
 .download {
@@ -91,5 +105,11 @@ const windowsStore = useWindowsStore()
 .frame {
     width: 100%;
     height: 97.5%;
+}
+
+.frame-embed {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 </style>
