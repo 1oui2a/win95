@@ -264,7 +264,7 @@ onMounted(() => {
 
         <div v-else class="file-explorer" ref="fileExplorer">
             <div class="grid-container-photos" :style="{ height: gridHeight }">
-                <img :src="file.src" />
+                <img :src="file.src" class="preview-image" />
             </div>
         </div>
 
@@ -486,5 +486,11 @@ onMounted(() => {
     margin-right: 5px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.preview-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 </style>

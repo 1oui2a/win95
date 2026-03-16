@@ -9,6 +9,7 @@ import card2 from '@/assets/graphicdesign/card2.png';
 import card3 from '@/assets/graphicdesign/card3.png';
 import card4 from '@/assets/graphicdesign/card4.png';
 import poster1 from '@/assets/graphicdesign/poster1.png';
+import ShakingLabs_Poster from '@/assets/graphicdesign/ShakingLabs_Poster.png';
 // logo imports
 import colourscheme from '@/assets/logos/colourscheme.png';
 import wick from '@/assets/logos/wick.png';
@@ -297,6 +298,14 @@ export const useWindowsStore = defineStore("windows", {
                   type: "photo",
                   src: poster1,
                   altText: "poster1.png",
+                  size: 1366527,
+                },
+                  {
+                  id: 2,
+                  title: "Shaking Labs Poster",
+                  type: "photo",
+                  src: ShakingLabs_Poster,
+                  altText: "ShakingLabs_Poster.png",
                   size: 1366527,
                 },
               ],
