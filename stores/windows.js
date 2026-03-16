@@ -236,7 +236,7 @@ export const useWindowsStore = defineStore("windows", {
       },
       {
         windowId: "PhotosWindow", // Unique ID
-        windowState: "close", // Window State [open, close, minimize]
+        windowState: "open", // Window State [open, close, minimize]
         displayName: "Photos", // Display Name (title under icon)
         windowComponent: 'FilesWindow', // Window Component (can be changed to use modified windows)
         windowContent: '', // Window Content (used under slots)
@@ -247,8 +247,8 @@ export const useWindowsStore = defineStore("windows", {
             left: '0px'
         }, // Window Content Padding
         position: "absolute", // Window Position
-        positionX: "5vw", // Window Position X (when first opened)
-        positionY: "10vh", // Window Position Y (when first opened)
+        positionX: "35vw", // Window Position X (when first opened) - positioned to the right
+        positionY: "5%", // Window Position Y (when first opened)
         positionXLarge: "23vw",
         positionYLarge: "7%",
         iconImage: "photos.png", // Window Icon Image
